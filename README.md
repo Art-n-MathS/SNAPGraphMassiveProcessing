@@ -15,7 +15,7 @@ optional arguments:
   -h, --help           show this help message and exit
 
 how to run the script
-python automated.py -inImgDir <inImgDir> -outImgDir <outImgDir> -inExt <inExtension> -outExt <outExtension> -graph <graph.xml>  > "commands.bat"
+python automated1.py -inImgDir <inImgDir> -outImgDir <outImgDir> -inExt <inExtension> -outExt <outExtension> -graph <graph.xml>  > "commands.bat"
 
 Example on how to run the script: (Do not forget the "." in the extensions)
 python automated1.py -inImgDir "D:\ASTARTE_Data\Level2_discardedData\ERS-1" -outImgDir "D:\ASTARTE_Data\Level2\ERS-1" -inExt .tif -outExt .tif -graph "D:\Scripts\Feb2020\myGraph.xml"  > "D:\Scripts\Feb2020\reprojectERS1_1.bat"
