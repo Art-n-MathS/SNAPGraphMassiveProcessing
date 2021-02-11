@@ -6,7 +6,9 @@ This is a script used for massive processing of images using Graphs from SNAP. I
 (3) the directory with name of the SNAP graph to be used for processing the images, 
 (4) the extension of the input images (e.g. ".tif"), 
 (5) the extension of the output images
-Note: do not forget the "." while defining the extension of the images e.g. ".tif" is a valid extension to be inserted.
+Notes: 
+(a) Do not forget the "." while defining the extension of the images e.g. ".tif" is a valid extension to be inserted.
+(b) Make sure that inputs and outputs of the graph files are changed to allow definition from the Command prompt. Use ${in} for input and ${out} for output. Se example of graph included in the repository.  
 
 compursory arguments:
   -inImgDir <string>   Input directory of images
@@ -27,8 +29,7 @@ python automated1.py -inImgDir "D:\ASTARTE_Data\Level2_discardedData\ERS-1" -out
 The ">" writes the generated commands into the ".bat" file. Once the executable ".bat" file is created, you may run it to execute the commands. 
 
 Additional Notes:
-(a) Make sure that inputs and outputs of the graph files are changed to allow definition from the Command prompt. Use ${in} for input and ${out} for output. Se example of graph included in the repository. 
-(b) Make sure that Python is added to the Path during installation of SNAP, alternatively add it manually in the Path Variables so tha you can run the command "gpt" from command prompt.
+(a) Make sure that Python is added to the Path during installation of SNAP, alternatively add it manually in the Path Variables so tha you can run the command "gpt" from command prompt.
 
 
 Acknoledgements:
