@@ -35,3 +35,5 @@ Additional Notes:
 Acknoledgements:
 These scripts were developed as part of the "ASTARTE" project (EXCELLENCE/0918/0341), which is co-financed by the European Regional Development Fund and the Republic of Cyprus through the Research Innovation Foundation. 
 
+This video tutorial will help you use it efficiently:
+https://www.youtube.com/watch?v=iEEMn7h35nU
